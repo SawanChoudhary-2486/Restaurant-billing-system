@@ -1,0 +1,95 @@
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item .card {
+    height: 100%;
+}
+
+.menu-item .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #f8f9fa;
+}
+
+.menu-item .card-img-top.error {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.menu-item .card-img-top.error::before {
+    content: 'Image not available';
+    position: absolute;
+}
+
+.menu-item .card-body {
+    padding: 1rem;
+}
+
+.order-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.order-item:last-child {
+    border-bottom: none;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-control button {
+    padding: 0 8px;
+}
+
+#orderItems {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.price {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.delete-item {
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .col-md-8, .col-md-4 {
+        padding: 0 10px;
+    }
+    
+    .menu-item .card-img-top {
+        height: 180px;
+    }
+} 
