@@ -7,7 +7,7 @@ It allows staff users to log in, select menu items, generate bills, update or re
 
 ## 🚀 Live Demo
 
-🔗 Link: *(Will add after GitHub Pages publishing)*
+🔗 Link: https://sawanchoudhary-2486.github.io/Restaurant-billing-system/
 
 ---
 
