@@ -46,7 +46,6 @@ Default users (for demo):
   - Subtotal  
   - Tax (10%)  
   - Final total  
-- ✔️ Generate printable bill text  
 - ✔️ Responsive clean UI using Bootstrap  
 
 ---
@@ -58,7 +57,6 @@ Default users (for demo):
 - JavaScript  
 - Bootstrap 5  
 - jQuery  
-- LocalStorage
 
 ---
 
@@ -91,10 +89,4 @@ It is **not secure for production use** without a backend.
 ## 📄 License
 
 Free to use and modify for learning or personal projects.
-
----
-
-## 👨‍💻 Author
-
-Designed and developed as a beginner learning project.
 
